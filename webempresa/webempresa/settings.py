@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'ckeditor',
+    'contact',
     'core',
     'pages.apps.PagesConfig',
     'services.apps.ServicesConfig',
@@ -145,3 +146,9 @@ CKEDITOR_CONFIGS = {
         ]
     }
 }
+
+#Email config
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '169cee760401e4'
+EMAIL_HOST_PASSWORD = '60fe3863073a32'
+EMAIL_PORT = '2525'
